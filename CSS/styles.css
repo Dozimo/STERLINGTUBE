@@ -145,7 +145,7 @@ body{
 }
 
 .sidebar{
-    width: 16%;
+    width: 19%;
     height: 88%;
     background-color: white;
     padding: 25px 0px 25px 0px;
@@ -163,7 +163,7 @@ body{
 .sidebar-footer{
     font-size: 12px;
     font-weight: bold;
-    /* width: 80%; */
+    width: 85%;
     
 }
 
@@ -187,9 +187,9 @@ body{
     /* width: 82%; */
     height: 100%;
     background-color:whitesmoke;
-    margin-left: 240px;
+    margin-left: 260px;
     margin-top: 80px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .sidebar div div{
@@ -393,7 +393,7 @@ a, a:hover{
 
     height: 100%;
     background-color:whitesmoke;
-    margin-left: 240px;
+    margin-left: 270px;
     margin-top: 80px;
 }
 
