@@ -86,7 +86,7 @@ body{
     left: -5px;
     top: -5px;
     cursor: pointer;
-    z-index: 9999999;
+    z-index: 9999999999;
     
 }
 
@@ -117,15 +117,15 @@ body{
 }
 
 #toggle:checked + .content {
-    transform: translateX(-200px);
+    margin-left: -20px;
     /* transition: .3s linear; */
     
 }
 
-#toggle{
+/* #toggle{
 
     opacity: 0;
-}
+} */
 
 .mobile-sidemenu div a{
     align-items: center;
@@ -145,8 +145,8 @@ body{
 }
 
 .sidebar{
-    width: 19%;
-    height: 88%;
+    width: 17%;
+    height: 90%;
     background-color: white;
     padding: 25px 0px 25px 0px;
     overflow-y: hidden;
@@ -180,11 +180,11 @@ body{
 }
 
 .sidebar-footer p:nth-of-type(1){
-    padding-right: 45px;
+    /* padding-right: 45px; */
     
 }
 .content{
-    /* width: 82%; */
+    width: 80%;
     height: 100%;
     background-color:whitesmoke;
     margin-left: 260px;
@@ -339,8 +339,8 @@ body{
 }
 
 .section2 .block-imgs img{
-    width: 250px;
-    height: 193px;
+    width: 240px;
+    height: 150px;
 }
 
 .section2 .block2-imgs img{
@@ -367,6 +367,10 @@ a, a:hover{
     color:initial;
     text-decoration: none;
     
+}
+
+video:hover{
+    animation-play-state: running;
 }
 
 /* .trend-icons{
